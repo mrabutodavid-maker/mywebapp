@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Demo Bank - Transfer</title>
+  <style>
+    body { font-family: Arial; background: #f0f2f7; padding: 40px; }
+    .transfer-form {
+      background: white;
+      padding: 30px;
+      max-width: 400px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    h2 { text-align: center; }
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <div class="transfer-form">
+    <h2>Transfer Money</h2>
+    <form>
+      <input type="text" placeholder="Recipient Account Number" required>
+      <input type="number" placeholder="Amount (USD)" required>
+      <input type="text" placeholder="Note (optional)">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</body>
+</html>
